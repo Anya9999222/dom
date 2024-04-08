@@ -1,0 +1,1 @@
+body{background-color:#d4d2d2;color:red;margin:0 auto;max-width:500px}.board{display:flex;flex-wrap:wrap;height:500px;justify-content:space-between;width:500px}.board-el{background-color:#ecbebe;border-radius:20px;height:20%;margin-right:5%;width:20%}.active{background-image:url(2dbd01ce16c0fa83cb67.png);background-repeat:no-repeat;background-size:cover}
