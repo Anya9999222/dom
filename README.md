@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/52ud2d0hl5yu1kc9?svg=true)](https://ci.appveyor.com/project/Anya9999222/dom)
+[![Build status](https://ci.appveyor.com/api/projects/status/8kiyu0ar4sb2lrpp?svg=true)](https://ci.appveyor.com/project/Anya9999222/dom-b65e1)
