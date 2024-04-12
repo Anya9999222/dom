@@ -12,15 +12,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.board-el {
-    margin-right: 5%;
-    width: 20%;
-    height: 20%;
-    background-color: rgb(236, 190, 190);
-    border-radius: 20px;
-}
-                                                
+                               
 .active {
     background-image: url(../img/goblin.png);
     background-repeat: no-repeat;

@@ -1,5 +1,10 @@
+import { BoardItem } from "./board-item/board-item";
+
 document.addEventListener("DOMContentLoaded", () => {
-  const board = document.querySelectorAll(".board-el");
+  const board = new BoardItem(document.querySelector(".board"));
+
+  board.renderBoard(16);
+  const boardEl = document.querySelectorAll(".board-el");
 
   let previousCell = 1;
 
@@ -15,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       previousCell = cell;
     }
 
-    board.forEach((el) => {
+    boardEl.forEach((el) => {
       el.classList.remove("active");
       if (el.dataset.id === cell.toString()) {
         el.classList.add("active");
